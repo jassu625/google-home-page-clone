@@ -68,7 +68,6 @@ body {
   border: 1px solid #dcdcdc;
 }
 
-
 .search {
   height: 45px;
   border: none;
@@ -84,7 +83,7 @@ body {
 }
 
 .button {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .buttons {
@@ -97,4 +96,44 @@ body {
   outline: none;
 }
 
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  border-top: 1px solid #e4e4e4;
+  background-color: #f2f2f2;
+}
+.footer div ul {
+  list-style-type: none;
+  display: flex;
+}
+.footer div ul li {
+  padding-left: 27px;
+}
+.footer div ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+}
 
+.footer .left-list {
+  padding-left: 0px;
+}
+
+.footer .right-list {
+  padding-right: 27px;
+}
+
+.footer .left-footer {
+  float: left;
+}
+
+.footer .right-footer {
+  float: right;
+}
